@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="javascript:void(0);" class="icon" onclick="menuDrop()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <div id="navLinks">
+            <a class="menuLinks" href="#">Cat 1</a>
+            <a class="menuLinks" href="#">Cat 2</a>
+            <a class="menuLinks" href="#">Cat 3</a>
+            <a class="menuLinks" href="#">Cat 4</a>
+        </div>
+        
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img  class="cardImg" src="images/harriet.png"/>
+            <div class="cardContent">
+                <h4>Lorem Catsum</h4>
+                <p class="cardP">Feles enim pulchra valde optimus. 
+                    Et vidisti? Sunt tam infandum, et hilares. 
+                    Item, si corpus illi tuum tibi cibum die. De metallo quod meretur.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img  class="cardImg" src="images/harriet2.png"/>
+            <div class="cardContent">
+                <h4>Lorem Catsum</h4>
+                <p class="cardP">Feles enim pulchra valde optimus. 
+                    Et vidisti? Sunt tam infandum, et hilares. 
+                    Item, si corpus illi tuum tibi cibum die. De metallo quod meretur.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img  class="cardImg" src="images/snow.png"/>
+            <div class="cardContent">
+                <h4>Lorem Catsum</h4>
+                <p class="cardP">Feles enim pulchra valde optimus. 
+                    Et vidisti? Sunt tam infandum, et hilares. 
+                    Item, si corpus illi tuum tibi cibum die. De metallo quod meretur.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img  class="cardImg" src="images/canoe.png"/>
+            <div class="cardContent">
+                <h4>Lorem Catsum</h4>
+                <p class="cardP">Feles enim pulchra valde optimus. 
+                    Et vidisti? Sunt tam infandum, et hilares. 
+                    Item, si corpus illi tuum tibi cibum die. De metallo quod meretur.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>function menuDrop() {
+        var x = document.getElementById("navLinks");
+            if (x.style.display === "flex"){
+            x.style.display = "none";
+            }else {
+            x.style.display = "flex";
+        }
+    }
+    </script>
+
+
+
+</body>
